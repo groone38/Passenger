@@ -1,40 +1,42 @@
 {
-  "posts": [
+  "passengers": [
+    {
+      "id": 1,
+      "fullname": "Lisin",
+      "checkedIn": true,
+      "checkInDate": 123456123123,
+      "children": [
+        {
+          "name": "Ted",
+          "age": 12
+        },
+        {
+          "name": "Chloe",
+          "age": 7
+        }
+      ]
+    },
     {
       "id": 2,
-      "firstName": "Andrey",
-      "lastName": "Lisin",
-      "email": "groone38@yandex.ru",
-      "mobile": "89005553535",
-      "salary": "$100000"
+      "fullname": "Anton",
+      "checkedIn": false,
+      "checkInDate": 123456123123
     },
     {
       "id": 3,
-      "firstName": "test",
-      "lastName": "name test",
-      "email": "qwert@yandex.com",
-      "mobile": "123123",
-      "salary": "123"
-    },
-    {
-      "id": 4,
-      "firstName": "test",
-      "lastName": "name test",
-      "email": "qwert@yandex.com",
-      "mobile": "123123",
-      "salary": "123"
-    },
-    {
-      "id": 5,
-      "firstName": "1",
-      "lastName": "1",
-      "email": "1",
-      "mobile": "1",
-      "salary": "1"
+      "fullname": "John",
+      "checkedIn": true,
+      "checkInDate": 123456123123,
+      "children": [
+        {
+          "name": "Ted",
+          "age": 12
+        },
+        {
+          "name": "Chloe",
+          "age": 7
+        }
+      ]
     }
-  ],
-  "comments": [],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
