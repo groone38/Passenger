@@ -1,16 +1,29 @@
-<form [formGroup]="singupForms" (ngSubmit)="singUp()">
-  <div>
-    <label for="name">Name</label>
-    <input type="text" name="name" id="name" formControlName="name" />
-  </div>
-  <div>
-    <label for="password">Password</label>
-    <input
-      type="password"
-      name="password"
-      id="password"
-      formControlName="password"
-    />
-  </div>
-  <button type="submit">Registr</button>
-</form>
+<div class="app">
+  <form [formGroup]="singupForms" (ngSubmit)="singUp()" class="form">
+    <div class="form__input">
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" formControlName="email" />
+    </div>
+    <div class="form__input">
+      <label for="password">Password</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        formControlName="password"
+      />
+    </div>
+    <div class="form__input">
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" formControlName="name" />
+    </div>
+    <div class="form__input">
+      <label for="tel">Tel</label>
+      <input type="tel" name="tel" id="tel" formControlName="tel" />
+    </div>
+    <div class="form__btn">
+      <button type="submit" class="form__btn-login">Registr</button>
+      <a routerLink="/login" class="form__btn-link">You have an account?</a>
+    </div>
+  </form>
+</div>
