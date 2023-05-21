@@ -19,8 +19,10 @@ export class ModalRegisterComponent implements OnInit {
 
   ngOnInit(): void {
     this.singupForms = this.formBuilder.group({
-      name: [''],
+      email: [''],
       password: [''],
+      name: [''],
+      tel: [''],
     });
   }
 

@@ -11,6 +11,7 @@ import { PassengerDetailComponent } from './passengers-dashboard/components/pass
 import { PassengersDashboardService } from './passengers-dashboard/passengers-dashboard.service';
 import { ModalLoginComponent } from './modal/modal-login/modal-login.component';
 import { ModalRegisterComponent } from './modal/modal-register/modal-register.component';
+import { HeaderComponent } from './passengers-dashboard/components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { ModalRegisterComponent } from './modal/modal-register/modal-register.co
     PassengerDetailComponent,
     ModalLoginComponent,
     ModalRegisterComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,

@@ -18,8 +18,10 @@ export class ModalLoginComponent implements OnInit {
 
   ngOnInit(): void {
     this.loginForms = this.formBuilder.group({
-      name: [''],
+      email: [''],
       password: [''],
+      name: [''],
+      tel: [''],
     });
   }
 
@@ -27,7 +29,7 @@ export class ModalLoginComponent implements OnInit {
     this.modalServicesService.get().subscribe((res) => {
       const login = res.find(
         (item: User) =>
-          item.name === this.loginForms.value.name &&
+          item.email === this.loginForms.value.email &&
           item.password === this.loginForms.value.password
       );
       if (login) {
