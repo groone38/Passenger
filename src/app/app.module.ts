@@ -9,6 +9,8 @@ import { PassengersDashboardComponent } from './passengers-dashboard/passengers-
 import { PassengerCountComponent } from './passengers-dashboard/components/passenger-count/passenger-count.component';
 import { PassengerDetailComponent } from './passengers-dashboard/components/passenger-detail/passenger-detail.component';
 import { PassengersDashboardService } from './passengers-dashboard/passengers-dashboard.service';
+import { ModalLoginComponent } from './modal/modal-login/modal-login.component';
+import { ModalRegisterComponent } from './modal/modal-register/modal-register.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +18,8 @@ import { PassengersDashboardService } from './passengers-dashboard/passengers-da
     PassengersDashboardComponent,
     PassengerCountComponent,
     PassengerDetailComponent,
+    ModalLoginComponent,
+    ModalRegisterComponent,
   ],
   imports: [
     BrowserModule,

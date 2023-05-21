@@ -38,5 +38,22 @@
         }
       ]
     }
+  ],
+  "singupUsers": [
+    {
+      "id": 1,
+      "name": "Andrey",
+      "password": 123123
+    },
+    {
+      "name": "test",
+      "password": "123123",
+      "id": 2
+    },
+    {
+      "name": "test123",
+      "password": "1231231",
+      "id": 3
+    }
   ]
 }
